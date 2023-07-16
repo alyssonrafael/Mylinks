@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DEVlinks</title>
+        <link rel="stylesheet" href="./css.css">
+    </head>
+    <body>
+
+        <div id="container"> <!--parte pricipal da caixa-->
+            <div id="profile"> <!--prate de cima com o lobo e o nome-->
+                <img
+                  src="./assets/Avatar.png"
+                  alt="lobinho codando em um ambiente azul"
+                />
+                <p>@alyssonRafael</p>
+            </div>
+
+            <div id="switch" onclick="toggleMode()">
+                <button></button>
+                <span></span>
+            </div>
+
+            <ul><!--aqui é a lista das caixas principais principais-->
+                <li>
+                    <a href="#">Conheça esse projeto</a> <!--o # faz ser clicavel-->
+                </li>
+                <li>
+                    <a href="./assets/avatar.png">Ver lobinho</a>
+                </li>
+                <li>
+                    <a href="https://github.com/alyssonrafael"
+                        target="_blank"
+                    >Conheça o meu portifólio</a> <!--o targuet serve para que seja gerada uma nova pagina ao inves de sair da pagina atual -->
+                </li>
+            </ul>
+            <div id="social-links"><!--icones-->
+                <a href="https://github.com/alyssonrafael" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>    
+                </a>
+
+                <a href="" target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+
+                <a href="" target="_blank">
+                    <ion-icon name="mail-outline"></ion-icon>
+                </a>
+
+            </div>
+            <footer><!--rodapé da pagina-->
+                Feito com ❤ Alysson Rafael
+            </footer>
+        </div>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="./js.js"></script>
+    </body>
+</html>
